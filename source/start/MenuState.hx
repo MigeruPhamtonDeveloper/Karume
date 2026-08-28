@@ -70,5 +70,10 @@ class MenuState extends FlxState
     override public function update(elapsed:Float) 
     {
         super.update(elapsed);
+		if (FlxG.keys.justPressed.ENTER)
+			// Aca se puede cambiar el estado de la pantalla de inicio al SaveData o al PlayState
+		{
+			FlxG.switchState(() -> new SaveData());
+		}
     }
 }

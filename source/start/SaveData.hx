@@ -7,7 +7,7 @@ import flixel.effects.FlxFlicker;
 import flixel.text.FlxText;
 import play.PlayState;
 
-class PlayState extends FlxState
+class SaveData extends FlxState
 {
 	override public function create()
 	{
