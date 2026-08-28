@@ -1,0 +1,41 @@
+-main ApplicationMain 
+-cp C:/HaxeToolkit/haxe/lib/flixel/6,1,2
+-D flixel=6.1.2
+--macro openfl.utils._internal.ExtraParamsMacro.include()
+-cp C:/HaxeToolkit/haxe/lib/openfl/9,5,2/src
+-D openfl=9.5.2
+--macro lime._internal.macros.DefineMacro.run()
+--macro haxe.macro.Compiler.addMetadata("@:autoBuild(lime._internal.macros.AssetsMacro.embedBytes())", "haxe.io.Bytes")
+-cp C:/HaxeToolkit/haxe/lib/lime/8,3,2/src
+-D lime=8.3.2
+--macro keep('IntIterator')
+-cp C:/HaxeToolkit/haxe/lib/hscript/2,7,0
+-D hscript=2.7.0
+-cp source
+-D ANDROID_SETUP=true
+-D message.reporting=pretty
+-D ANDROID_NDK_ROOT=C:\Users\RODRIGUEZ\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-D howlerjs
+-D lime-webgl
+-D lime-dom
+-D lime-howlerjs
+-D lime-html5
+-D FLX_NO_HEALTH
+-D lime-threads
+-D tools=8.3.2
+-D ANDROID_SDK=C:\Users\RODRIGUEZ\AppData\Local\Android\Sdk
+-D lime-canvas
+-D FLX_NO_DEBUG
+-D no-compilation
+-D openfl-html5
+-D NAPE_RELEASE_BUILD
+-D JAVA_HOME=C:\Program Files\Android\Android Studio\jbr
+-D html5
+-D web
+--remap flash:openfl
+--macro flixel.system.macros.FlxDefines.run()
+--connect
+6001
+-js export/html5/bin/Karume.js
+-cp export/html5/haxe
+-D html5

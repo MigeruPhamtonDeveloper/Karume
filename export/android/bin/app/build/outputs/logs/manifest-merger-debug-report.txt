@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [:deps:extension-api] /home/anderson/Documentos/Karume/export/android/bin/deps/extension-api/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:2:95-122
+		INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:2:70-94
+		INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:2:123-153
+uses-feature#0x00020000
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:4:2-75
+	android:glEsVersion
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:4:16-48
+	android:required
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:4:49-72
+uses-feature#android.hardware.touchscreen
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:5:2-87
+	android:required
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:5:60-84
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:5:16-59
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:7:2-65
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:7:19-62
+uses-permission#android.permission.INTERNET
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:8:2-64
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:8:19-61
+uses-permission#android.permission.VIBRATE
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:9:2-63
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:9:19-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:10:2-76
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:10:19-73
+application
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:2-33:16
+INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:2-33:16
+	android:extractNativeLibs
+		INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:42-64
+	android:hardwareAccelerated
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:151-185
+	android:appCategory
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:65-91
+	android:icon
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:232-261
+	android:allowBackup
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:15-41
+	android:theme
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:92-150
+	android:allowNativeHeapPointerTagging
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:13:186-231
+meta-data#SDL_ENV.SDL_IOS_ORIENTATIONS
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:16:3-105
+	android:value
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:16:58-102
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:16:14-57
+activity#com.example.myapp.MainActivity
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:19:3-31:14
+	android:screenOrientation
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:19:13-56
+	android:label
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:19:253-275
+	android:launchMode
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:19:276-307
+	android:exported
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:19:229-252
+	android:configChanges
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:19:85-228
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:19:57-84
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:tv.ouya.intent.category.GAME
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:21:4-27:20
+action#android.intent.action.MAIN
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:23:5-57
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:23:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:24:15-62
+category#tv.ouya.intent.category.GAME
+ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:25:5-61
+	android:name
+		ADDED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml:25:15-58
+uses-sdk
+INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml
+INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml
+MERGED from [:deps:extension-api] /home/anderson/Documentos/Karume/export/android/bin/deps/extension-api/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:deps:extension-api] /home/anderson/Documentos/Karume/export/android/bin/deps/extension-api/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/anderson/Documentos/Karume/export/android/bin/app/src/main/AndroidManifest.xml

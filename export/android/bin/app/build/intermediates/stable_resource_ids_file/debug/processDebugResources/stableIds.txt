@@ -1,0 +1,2 @@
+com.example.myapp:drawable/ouya_icon = 0x7f010001
+com.example.myapp:drawable/icon = 0x7f010000
