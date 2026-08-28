@@ -34,8 +34,6 @@
 -D web
 --remap flash:openfl
 --macro flixel.system.macros.FlxDefines.run()
---connect
-6001
 -js export/html5/bin/Karume.js
 -cp export/html5/haxe
 -D html5
