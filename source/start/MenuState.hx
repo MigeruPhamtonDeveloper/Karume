@@ -26,7 +26,11 @@ class MenuState extends FlxState
         textTitulo.screenCenter(); 
         add(textTitulo);
 
-        // 2. Calcular la posición para "PRESS ALPHA" abajo del título
+		// Poner otro texto indicando la version
+		textSubtitulo = new FlxText(459, 390, 0, "Pre-Alpha Version: 0.0.0", 12);
+		add(textSubtitulo);
+
+		// 2. Calcular la posición para "PRESS ALPHA" abajo del título
         var posY:Float = textTitulo.y + textTitulo.height + 30;
 
         // 3. Configurar el subtítulo instruccional
@@ -35,13 +39,13 @@ class MenuState extends FlxState
         textSubtitulo.color = FlxColor.GRAY;
         add(textSubtitulo);
 
-        // 4. Efecto Tween de parpadeo suave para el "PRESS ALPHA"
+		// 4. Efecto Tween de parpadeo suave para el "PRESS ALPHA"
         FlxTween.tween(textSubtitulo, {alpha: 0}, 0.8, {type: PINGPONG});
 
-        // 5. Reproducir la música ambiental del menú
+		// 5 Reproducir la música ambiental del menú
         FlxG.sound.playMusic("assets/music/crystal_lake_zone.ogg", 0.7, true);
 
-        // 6. Configuración del sistema de partículas para los pétalos
+		// 6. Configuración del sistema de partículas para los pétalos
         emisorPetalos = new FlxEmitter(0, -20, 40);
         emisorPetalos.particleClass = PetalParticle;
         emisorPetalos.width = FlxG.width;
@@ -49,7 +53,7 @@ class MenuState extends FlxState
         // Cargamos las partículas desde la hoja de sprites de pétalos
         emisorPetalos.loadParticles("assets/images/petalos/petal1.png", 40, 16, true, false);
 
-        // 7. Hacer que caigan hasta el final de la pantalla (Aumentamos el tiempo de vida de 6 a 10 segundos)
+		// 7. Hacer que caigan hasta el final de la pantalla (Aumentamos el tiempo de vida de 6 a 10 segundos)
         emisorPetalos.lifespan.set(6, 10);
 
         // Ajuste de físicas y movimiento aleatorio:
@@ -63,17 +67,19 @@ class MenuState extends FlxState
         // Iniciamos la lluvia constante soltando un pétalo cada 0.1 segundos
         emisorPetalos.start(false, 0.1);
 
-        // 8. Ajustar la camara para el escenario y acercar para que los petalos no se vean pequeños
+		// 8. Ajustar la camara para el escenario y acercar para que los petalos no se vean pequeños
         
         }
 
     override public function update(elapsed:Float) 
     {
         super.update(elapsed);
+		#if !Android
 		if (FlxG.keys.justPressed.ENTER)
 			// Aca se puede cambiar el estado de la pantalla de inicio al SaveData o al PlayState
 		{
 			FlxG.switchState(() -> new SaveData());
 		}
+		#end
     }
 }

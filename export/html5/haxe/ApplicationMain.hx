@@ -35,12 +35,12 @@ class ApplicationMain
 		ManifestResources.init(config);
 		#end
 
-		app.meta["build"] = "3";
-		app.meta["company"] = "HaxeFlixel";
+		app.meta["build"] = "4";
+		app.meta["company"] = "T.M.R Studio";
 		app.meta["file"] = "Karume";
 		app.meta["name"] = "Karume";
 		app.meta["packageName"] = "com.example.myapp";
-		app.meta["version"] = "0.0.1";
+		app.meta["version"] = "0.0.0";
 
 		
 
