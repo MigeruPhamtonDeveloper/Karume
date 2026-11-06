@@ -1,8 +1,8 @@
 package;
 
 import flixel.FlxGame;
+import karume.start.MenuState;
 import openfl.display.Sprite;
-import start.MenuState;
 
 class Main extends Sprite
 {
