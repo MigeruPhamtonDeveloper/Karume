@@ -1,3 +1,0 @@
-com.example.myapp
-drawable icon
-drawable ouya_icon
