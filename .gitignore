@@ -2,4 +2,4 @@
 .haxelsp/recording/
 dump/
 export/
-export/
+.DS_Store
